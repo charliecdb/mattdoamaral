@@ -66,7 +66,7 @@ $.validate({
   modules : 'html5, toggleDisabled'
 });
 
-unction onContactCaptcha($form) {
+function onContactCaptcha($form) {
   $('form#contactForm').submit();
 }
 
