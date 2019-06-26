@@ -1,23 +1,4 @@
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // Smooth scrolling via animate()
 
 $(document).ready(function(){
