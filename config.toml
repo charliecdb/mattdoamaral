@@ -18,7 +18,7 @@ googleAnalytics = ""
 
   # To provide some metadata for search engines feel free to add a few
   # information about you and your website.
-  name = "Your name"
+  name = "Mathias Do Amaral"
   description = "Your description"
   # email = "your@email.com"
 
@@ -33,7 +33,7 @@ googleAnalytics = ""
 
   # 404 error customization
   [params.error404]
-    heading = "Page couldn't be found"
+    heading = "La Pagina no puede ser encontrada"
     text = "Please visit [this page](/)"
 
   # Optional piwik tracking
@@ -47,10 +47,10 @@ googleAnalytics = ""
 
   # Navigation
   [params.navigation]
-    brand = "The Agency"
+    brand = "Mathias"
     # Optional logo as brand stored in img/
     #logo = "logo.svg"
-    services = "Services"
+    services = "Servicios"
     portfolio = "Portfolio"
     about = "About"
     team = "Team"
@@ -77,7 +77,7 @@ googleAnalytics = ""
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
-    title = "Welcome To Our Studio!"
+    title = "Bienvenido To Our Studio!"
     subtitle = "It's nice to meet you"
     buttonText = "Tell me more"
 
