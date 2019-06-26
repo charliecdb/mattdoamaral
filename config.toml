@@ -19,7 +19,7 @@ googleAnalytics = "UA-142402614-2"
   # To provide some metadata for search engines feel free to add a few
   # information about you and your website.
   name = "Mathias Do Amaral"
-  description = "Bienvenido a mi cyber espacio"
+  description = "Bienvenido a mi espacio"
   # email = "your@email.com"
 
   # Link custom assets relative to /static
@@ -51,9 +51,9 @@ googleAnalytics = "UA-142402614-2"
     # Optional logo as brand stored in img/
     #logo = "logo.svg"
     services = "Servicios"
-    portfolio = "Portfolio"
-    about = "Acerca de mi"
-    team = "Team"
+    portfolio = "Portafolio"
+    about = "Conóceme"
+    team = "Mi Team"
     contact = "Contacto"
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
@@ -62,9 +62,9 @@ googleAnalytics = "UA-142402614-2"
 
     # prepended links
     #[[menu.prepend]]
-    #  url = "http://gohugo.io"
-    #  name = "Hugo"
-    #  weight = 10
+    # url = "http://gohugo.io"
+    # name = "Hugo"
+    # weight = 10
 
     # postpended links
     #[[menu.postpend]]
@@ -77,7 +77,7 @@ googleAnalytics = "UA-142402614-2"
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
-    title = "Bienvenido a mi espacio!"
+    title = "Amo lo que hago!"
     subtitle = "que gusto tenerte aqui"
     buttonText = "Conocer mas"
 
@@ -93,19 +93,19 @@ googleAnalytics = "UA-142402614-2"
     [[params.services.row.list]]
       icon = "fa-camera"
       title = "Fotografia"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      description = "En la fotografía hay una realidad tan sutil que llega a ser más real que la realidad."
       url = "#"
 
     [[params.services.row.list]]
-      icon = "fa-laptop"
-      title = "Responsive Design"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      icon = "fa-users"
+      title = "Soft Skills"
+      description = "Características que me hacen trabajar de forma profesional, mediante la comunicación, trabajo en equipo y vocación de servicio."
       url = "#"
 
     [[params.services.row.list]]
       icon = "fa-lock"
-      title = "Web"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      title = "Hard Skills"
+      description = "Técnicas y conocimientos para crecer, como Coaching Ejecutivo, manejo de finanzas personales aplicando creatividad e innovación."
       url = "#"
 
   # Portfolio section
@@ -115,20 +115,20 @@ googleAnalytics = "UA-142402614-2"
     # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
-    title = "Portfolio"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    title = "Portafolio"
+    subtitle = "Superarnos a nosotros mismos, romper nuestros propios records, superando nuestro ayer por lo que podamos hacer hoy."
 
     [params.portfolio.modal]
       client = "Client"
       date = "Date"
       category = "Category"
-      buttonText = "Close project"
+      buttonText = "Cerrar proyecto"
 
 
     # About section
   [params.about]
     enable = true
-    title = "About"
+    title = "Conóceme"
     subtitle = "Lorem ipsum dolor sit amet consectetur."
     endpoint = "Be part<br>of our<br>story!"
 
@@ -242,9 +242,9 @@ She worked at Pied Piper for years until they went belly up."""
   # Contact section
   [params.contact]
     enable = true
-    title = "Contact us"
-    subtitle  = "Lorem ipsum dolor sit amet consectetur."
-    buttonText = "Send message"
+    title = "Contácto"
+    subtitle  = "Recibido tu mensaje, haré lo posible por darte una pronta respuesta."
+    buttonText = "Enviar Mensaje"
     # netlify = true
 
     # Since this template is static, the contact form uses www.formspree.io as a
@@ -265,7 +265,7 @@ She worked at Pied Piper for years until they went belly up."""
     # add some custom JS script to finish the implementation.
     # postURL = "https://example.com/mailout/"
 
-    email = "your@email.com"
+    email = "info.matt.doamaral@gmail.com"
 
     # Success and error message overwrite for async contact form
     #thanks = "Thank you for awesomely contacting us."
@@ -276,20 +276,20 @@ She worked at Pied Piper for years until they went belly up."""
 
     # 'warning' defines error messages for invalid inputs
     [params.contact.form.name]
-      text = "Your Name *"
-      warning = "Please enter your name."
+      text = "Tu Nombre *"
+      warning = "Por favor ingresa tu nombre."
 
     [params.contact.form.email]
-      text = "Your Email *"
-      warning = "Please enter your email address."
+      text = "Tu Email *"
+      warning = "Por favor ingresa tu dirección de correo."
 
     [params.contact.form.phone]
-      text = "Your Phone *"
-      warning = "Please enter your phone number."
+      text = "Tu Teléfono *"
+      warning = "Por favor ingresa tu número de teléfono."
 
     [params.contact.form.message]
-      text = "Your Message *"
-      warning = "Please enter a message."
+      text = "Tu Mensaje *"
+      warning = "Por favor ingresa un mensaje."
 
       # Add optional form fields to identify contact forms
       #[[params.contact.form.hidden]]
@@ -303,7 +303,7 @@ She worked at Pied Piper for years until they went belly up."""
   # Footer section
   [params.footer]
     enable = true
-    copyright = "Published under the Apache License 2.0."
+    copyright = "Publicado bajo licencia Apache License 2.0."
 
     [[params.footer.social]]
       icon = "fa-twitter"
