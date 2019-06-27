@@ -86,7 +86,7 @@ googleAnalytics = "UA-142402614-2"
   [params.services]
     enable = true
     title = "Servicios"
-    subtitle = "Conoce como te puedo ayudar"
+    subtitle = "Genero valor de manera asertiva en distintos tipos relaciones, a través de conocimiento y actitud brindo soluciones y experiencias trabajando y aprendiendo de personas muy talentosas"
 
     [[params.services.row]]
 
@@ -116,12 +116,12 @@ googleAnalytics = "UA-142402614-2"
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
     title = "Portafolio"
-    subtitle = "Superarnos a nosotros mismos, romper nuestros propios records, superando nuestro ayer por lo que podamos hacer hoy."
+    subtitle = "Brindo un servicio profesional para empresas o personas individuales, me especializo en comprender la necesidad de mis clientes a modo de generar la mayor satisfacción posible con una propuesta de valor que supere sus expectativas."
 
     [params.portfolio.modal]
-      client = "Client"
-      date = "Date"
-      category = "Category"
+      client = "Cliente"
+      date = "Fecha"
+      category = "Categoría"
       buttonText = "Cerrar proyecto"
 
 
@@ -129,35 +129,35 @@ googleAnalytics = "UA-142402614-2"
   [params.about]
     enable = true
     title = "Conóceme"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
-    endpoint = "Be part<br>of our<br>story!"
+    subtitle = "Hola, soy Mathias Do Amaral Argote, emprendedor, amante de la fotografía y candidato a licenciatura en “Creación y Desarrollo de Empresas” de la EPC en Universidad Católica Boliviana, mis aptitudes se centran en la fotografía y las finanzas, dos mundos totalmente distintos, sin embargo, para mí representan un plan de vida."
+    endpoint = "se parte<br>de mi<br>historia!"
 
     # The events will be listed from the top to the bottom.
     # All images are stored under 'static/img/about'.
     # Replace them with your own.
     [[params.about.events]]
       img = "1.jpg"
-      date = "2009-2011"
-      title = "Our Humble Beginnings"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      date = "2012-2013"
+      title = "Un inicio humilde..."
+      description = "Recibo mi primera cámara de mi parte de papá, una réflex para principiantes, para mí se veía como la mejor cámara que existía, este fue el inicio de un sueño, ya que empecé a descubrir el mundo maravilloso de la fotografía!"
 
     [[params.about.events]]
       img = "2.jpg"
-      date = "March 2011"
-      title = "An Agency is Born"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      date = "Marzo 2014"
+      title = "Houston, tenemos un problema..."
+      description = "Después de semanas de intentar descifrar mi cámara… ISO, obturación, profundidad de campo, controles de apertura, sensores, velocidad de la cámara, what?, empiezo mis primeros cursos y talleres y se hizo la luz..."
 
     [[params.about.events]]
       img = "3.jpg"
-      date = "December 2012"
-      title = "Our Humble Beginnings"
+      date = "Diciembre 2016"
+      title = "Oh, mis primeros contratos!"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
 
     [[params.about.events]]
       img = "4.jpg"
-      date = "July 2014"
-      title = "Phase Two Expansion"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      date = "Julio 2018"
+      title = "Fase 2, Expansión"
+      description = "Busco un proyecto que me permita crecer profesionalmente, aportando lo mejor de mí para generar la mayor satisfacción a mis clientes, busco contactos de calidad con quienes poder realizar negocios, acostumbre a ser lo más suave con las personas, pero duro con los resultados, tengo mucha pasión por lo que hago, con actitud positiva y trabajo en equipo."
 
 
   # Team section
@@ -165,7 +165,7 @@ googleAnalytics = "UA-142402614-2"
     enable = true
     # Possibility to center items
     #center = true
-    title = "Our amazing team"
+    title = "¡Un Equipo increíble!"
     subtitle = "Lorem ipsum dolor sit amet consectetur."
     description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
 
@@ -241,7 +241,7 @@ She worked at Pied Piper for years until they went belly up."""
 
   # Contact section
   [params.contact]
-    enable = true
+    enable = false
     title = "Contácto"
     subtitle  = "Para una pronta respuesta, sería genial si me escribes a mi correo: info.matt.doamaral@gmail.com"
     buttonText = "Enviar Mensaje"
@@ -303,7 +303,7 @@ She worked at Pied Piper for years until they went belly up."""
   # Footer section
   [params.footer]
     enable = true
-    copyright = "Publicado bajo licencia Apache License 2.0."
+    copyright = "Publicado bajo licencia GNU/GPL"
 
     [[params.footer.social]]
       icon = "fa-twitter"
