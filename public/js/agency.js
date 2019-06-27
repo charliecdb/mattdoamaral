@@ -71,12 +71,12 @@ function onContactCaptcha($form) {
 }
 
 function checkReCaptcha() {
-  if (typeof grecaptcha === "undefined") {
+ if (typeof grecaptcha === "undefined") {
     $('.captcha-error').show();
     setTimeout(checkReCaptcha, 200);
-  } else {
-    $('.captcha-error').hide();
+ } else {
+   $('.captcha-error').hide();
     $('.g-recaptcha-filler').hide();
-    $('.g-recaptcha').attr('disabled', true);
+   $('.g-recaptcha').attr('disabled', true);
   }
 }
