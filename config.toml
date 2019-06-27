@@ -272,7 +272,7 @@ She worked at Pied Piper for years until they went belly up."""
     #error = "Message could not be send. Please contact us at mail@example.com instead."
 
     [params.contact.captcha]
-       sitekey = "6Ldc4aoUAAAAAGxWJHXmWkk5o4gBFTPyUwy44xAX"
+       sitekey = "6Lf44aoUAAAAABON4nGfVaEiBu3ziC3xS7qxeniW"
 
     # 'warning' defines error messages for invalid inputs
     [params.contact.form.name]
