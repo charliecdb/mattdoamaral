@@ -86,7 +86,7 @@ googleAnalytics = "UA-142402614-2"
   [params.services]
     enable = true
     title = "Servicios"
-    subtitle = "Genero valor de manera asertiva en distintos tipos relaciones, a través de conocimiento y actitud brindo soluciones y experiencias trabajando y aprendiendo de personas muy talentosas"
+    subtitle = "Genero valor de manera asertiva en distintos tipos de relaciones, a través de conocimiento y actitud brindo soluciones y experiencias trabajando y aprendiendo de personas muy talentosas"
 
     [[params.services.row]]
 
@@ -105,7 +105,7 @@ googleAnalytics = "UA-142402614-2"
     [[params.services.row.list]]
       icon = "fa-lock"
       title = "Hard Skills"
-      description = "Técnicas y conocimientos para crecer, como Coaching Ejecutivo, manejo de finanzas personales aplicando creatividad e innovación."
+      description = "Técnicas y conocimientos para crecer, como Coaching Ejecutivo, manejo de finanzas personales, aplicando creatividad e innovación."
       url = "#"
 
   # Portfolio section
@@ -139,13 +139,13 @@ googleAnalytics = "UA-142402614-2"
       img = "1.jpg"
       date = "2012-2013"
       title = "Un inicio humilde..."
-      description = "Recibo mi primera cámara de mi parte de papá, una réflex para principiantes, para mí se veía como la mejor cámara que existía, este fue el inicio de un sueño, ya que empecé a descubrir el mundo maravilloso de la fotografía!"
+      description = "Recibo mi primera cámara de parte de papá, una réflex para principiantes, para mí se veía como la mejor cámara que existía, este fue el inicio de un sueño, ya que empecé a descubrir el mundo maravilloso de la fotografía!"
 
     [[params.about.events]]
       img = "2.jpg"
       date = "Marzo 2014"
       title = "Houston, tenemos un problema..."
-      description = "Después de semanas de intentar descifrar mi cámara… ISO, obturación, profundidad de campo, controles de apertura, sensores, velocidad de la cámara, what?, empiezo mis primeros cursos y talleres y se hizo la luz..."
+      description = "Después de semanas de intentar descifrar mi cámara… ISO, obturación, profundidad de campo, controles de apertura, sensores, velocidad de la cámara, what?, empiezo mis primeros cursos y talleres... y se hizo la luz..."
 
     [[params.about.events]]
       img = "3.jpg"
@@ -157,7 +157,7 @@ googleAnalytics = "UA-142402614-2"
       img = "4.jpg"
       date = "Julio 2018"
       title = "Fase 2, Expansión"
-      description = "Busco un proyecto que me permita crecer profesionalmente, aportando lo mejor de mí para generar la mayor satisfacción a mis clientes, busco contactos de calidad con quienes poder realizar negocios, acostumbre a ser lo más suave con las personas, pero duro con los resultados, tengo mucha pasión por lo que hago, con actitud positiva y trabajo en equipo."
+      description = "Busco un proyecto que me permita crecer profesionalmente, aportando lo mejor de mí para generar la mayor satisfacción a mis clientes, busco contactos de calidad con quienes poder realizar negocios, acostumbro a ser lo más suave con las personas, pero duro con los resultados, tengo mucha pasión por lo que hago, con actitud positiva y trabajo en equipo."
 
 
   # Team section
