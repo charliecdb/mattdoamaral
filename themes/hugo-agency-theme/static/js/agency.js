@@ -1,8 +1,8 @@
 // Smooth scrolling via animate()
 $(document).ready(function(){
-//  if ($('.g-recaptcha')) {
-//    checkReCaptcha()
-// }
+  if ($('.g-recaptcha')) {
+    checkReCaptcha()
+  }
 
   $("a").on('click', function(event) {
     if (this.hash && window.location.pathname == "/") {
@@ -48,40 +48,35 @@ $('.navbar-collapse ul li a').click(function() {
 
 // Async contact form
 $('form[id=contactForm]').submit(function(){
- // $.post($(this).attr('action'), $(this).serialize(), function(data, textStatus, jqXHR){
- //  $('form[id=contactForm] #success').hide();
-//    $('form[id=contactForm] #error').hide();
-//    if (jqXHR.status == 200) {
-  //    $('form[id=contactForm] #success').show();
-     //'json').fail(function(){
-    //  $('form[id=contactForm] #success').hide();
-    //  $('form[id=contactForm] #error').hide();
-  //    $('form[id=contactForm] #error').show();
-  //});
-//  return false;
-//});
-  // Just remove the AJAX part and use the default submit behaviour from Netlify
-  $('form[id=contactForm] #success').show();
+  $.post($(this).attr('action'), $(this).serialize(), function(data, textStatus, jqXHR){
+    $('form[id=contactForm] #success').hide();
+    $('form[id=contactForm] #error').hide();
+    if (jqXHR.status == 200) {
+      $('form[id=contactForm] #success').show();
+    }}, 'json').fail(function(){
+      $('form[id=contactForm] #success').hide();
+      $('form[id=contactForm] #error').hide();
+      $('form[id=contactForm] #error').show();
+  });
+  return false;
 });
 
-  
-  
 // Contact form validation
 $.validate({
-  modules : 'html5'
+  modules : 'html5, toggleDisabled'
 });
 
-//function onContactCaptcha($form) {
-//  $('form#contactForm').submit();
-//}
+function onContactCaptcha($form) {
+  $('form#contactForm').submit();
+}
 
-//function checkReCaptcha() {
-// if (typeof grecaptcha === "undefined") {
-//    $('.captcha-error').show();
- //   setTimeout(checkReCaptcha, 200);
-// } else {
-//   $('.captcha-error').hide();
-//    $('.g-recaptcha-filler').hide();
- //  $('.g-recaptcha').attr('disabled', true);
-//  }
-//}
+function checkReCaptcha() {
+ if (typeof grecaptcha === "undefined") {
+    $('.captcha-error').show();
+    setTimeout(checkReCaptcha, 200);
+ } else {
+   $('.captcha-error').hide();
+    $('.g-recaptcha-filler').hide();
+   $('.g-recaptcha').attr('disabled', true);
+  }
+}
