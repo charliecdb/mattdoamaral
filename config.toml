@@ -245,7 +245,7 @@ She worked at Pied Piper for years until they went belly up."""
     title = "Contácto"
     subtitle  = "Para una pronta respuesta, sería genial si me escribes a mi correo: info.matt.doamaral@gmail.com"
     buttonText = "Enviar Mensaje"
-    netlify = true
+    # netlify = true
 
     # Since this template is static, the contact form uses www.formspree.io as a
     # proxy. The form makes a POST request to their servers to send the actual
