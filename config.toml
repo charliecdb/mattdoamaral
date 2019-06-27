@@ -243,7 +243,7 @@ She worked at Pied Piper for years until they went belly up."""
   [params.contact]
     enable = true
     title = "Contácto"
-    subtitle  = "Recibido tu mensaje, haré lo posible por darte una pronta respuesta."
+    subtitle  = "Para una pronta respuesta, sería genial si me escribes a mi correo: info.matt.doamaral@gmail.com"
     buttonText = "Enviar Mensaje"
     # netlify = true
 
