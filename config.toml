@@ -51,7 +51,7 @@ googleAnalytics = "UA-142402614-2"
     # Optional logo as brand stored in img/
     #logo = "logo.svg"
     services = "Servicios"
-    portfolio = "Portafolio"
+    portfolio = "Proyectos"
     about = "Conóceme"
     team = "Mi Team"
     contact = "Contacto"
@@ -77,8 +77,8 @@ googleAnalytics = "UA-142402614-2"
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
-    title = "Amo lo que hago!"
-    subtitle = "que gusto tenerte aqui"
+    title = "que gusto tenerte aqui!"
+    subtitle = "Bienvenido!"
     buttonText = "Conocer mas"
 
 
@@ -91,21 +91,21 @@ googleAnalytics = "UA-142402614-2"
     [[params.services.row]]
 
     [[params.services.row.list]]
-      icon = "fa-camera"
-      title = "Fotografia"
-      description = "En la fotografía hay una realidad tan sutil que llega a ser más real que la realidad."
-      url = "#"
-
-    [[params.services.row.list]]
       icon = "fa-users"
-      title = "Soft Skills"
-      description = "Características que me hacen trabajar de forma profesional, mediante la comunicación, trabajo en equipo y vocación de servicio."
+      title = "Desarrollo Personal"
+      description = "Diariamente desarrollo nuevas y mejores características para ser la mejor versión de mí mismo con el propósito de agregarle valor a las personas."
       url = "#"
 
     [[params.services.row.list]]
-      icon = "fa-lock"
-      title = "Hard Skills"
-      description = "Técnicas y conocimientos para crecer, como Coaching Ejecutivo, manejo de finanzas personales, aplicando creatividad e innovación."
+      icon = "fa-credit-card"
+      title = "Educación Financiera"
+      description = "Constantemente trabajo en el manejo de mis finanzas personales que me ayudan a un mejor control sobre mis ingresos y gastos. Buscando adquirir más activos y deshacerme de pasivos, para lograr así la libertad financiera."
+      url = "#"
+
+    [[params.services.row.list]]
+      icon = "fa-camera"
+      title = "Fotografía"
+      description = "Una de mis pasiones, me ayuda a expandir mi mente y a tener nuevos puntos de vista, no sólo al momento de estar con mi cámara, sino en mi día a día y al tratar con diferentes personas."
       url = "#"
 
   # Portfolio section
@@ -115,8 +115,8 @@ googleAnalytics = "UA-142402614-2"
     # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
-    title = "Portafolio"
-    subtitle = "Brindo un servicio profesional para empresas o personas individuales, me especializo en comprender la necesidad de mis clientes a modo de generar la mayor satisfacción posible con una propuesta de valor que supere sus expectativas."
+    title = "Proyectos"
+    subtitle = "Desde 2015 decidí que quería tomar un camino diferente al que la sociedad me trataba de imponer, desde ese año realicé varios proyectos y planifique varios más a largo plazo, acá te cuento algunos y como extra te comparto mi forma de pensar sobre ciertos temas."
 
     [params.portfolio.modal]
       client = "Cliente"
