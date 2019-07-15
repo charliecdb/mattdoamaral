@@ -184,8 +184,9 @@ googleAnalytics = "UA-142402614-2"
     #    "Open Source [community management](#)"
     #  ]
       # For bio markdown and even multiline strings are available.
-      bio = """Kay is an awesome Lead Designer with heaps of experience in the field of UX.
-She worked at Pied Piper for years until they went belly up."""
+      bio = """Jimmy es mi mentor hace 2 años en varias ramas de mi vida.
+Razona de forma muy diferente a la mayoría de las personas, es de los pocos que se lanza a realizar actividades nuevas para él
+sin miedo a que pueda pasar.."""
       social = [
       #  ["fa-twitter", "#"],
         ["fa-facebook", "https://www.facebook.com/Jimmy.toledo.bolivia/"],
@@ -197,6 +198,8 @@ She worked at Pied Piper for years until they went belly up."""
       name = "Alejandro Leyton"
       position = "Productor - Empresario"
       livesIn = "La Paz, Bolivia"
+      bio = """Alejandro es un empresario y líder que constantemente evita que me tropiece con piedras con
+las que el tropezó y me demuestra que puedes ser exitoso y humilde."""
       social = [
        # ["fa-linkedin", "https://www.linkedin.com/in/alejandro-leyton-204071179/"],
         ["fa-facebook", "https://www.facebook.com/alejandro.leytonn/"],
@@ -208,6 +211,8 @@ She worked at Pied Piper for years until they went belly up."""
       name = "Maya Portillo"
       position = "Fotógrafa - Empresaria"
       livesIn = "La Paz, Bolivia"
+      bio = """Maya es una de las personas más sabias que conozco pues en muchas ocasiones me mostró
+soluciones que pocas personas podrían ver, a parte de ser una excelente fotógrafa y amiga."""
       social = [
       #  ["fa-twitter", "#"],
         ["fa-facebook", "https://www.facebook.com/foto.maya.portillo/"],
@@ -309,18 +314,18 @@ She worked at Pied Piper for years until they went belly up."""
 
     [[params.footer.social]]
       icon = "fa-twitter"
-      link = "#"
+      link = "https://twitter.com/MattDoAmaral1"
       title = "Twitter"
 
     [[params.footer.social]]
       icon = "fa-facebook"
-      link = "#"
+      link = "https://www.facebook.com/mattdoamaral/"
       title = "Facebook"
 
     [[params.footer.social]]
-      icon = "fa-linkedin"
-      link = "#"
-      title = "LinkedIn"
+      icon = "fa-instagram"
+      link = "https://www.instagram.com/matt.argote/"
+      title = "Instagram"
 
     [[params.footer.quicklinks]]
       text = "Privacy Policy"
