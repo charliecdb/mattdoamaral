@@ -226,19 +226,19 @@ She worked at Pied Piper for years until they went belly up."""
       # Replace them with your clients's logos.
       # Suggestion: .svg in the size of 280px*80px looks good
       [[params.clients]]
-        logo = "envato.jpg"
+        logo = "envato.png"
         link = "#"
 
       [[params.clients]]
-        logo = "designmodo.jpg"
+        logo = "designmodo.png"
         link = "#"
 
       [[params.clients]]
-        logo = "themeforest.jpg"
+        logo = "themeforest.png"
         link = "#"
 
       [[params.clients]]
-        logo = "creative-market.jpg"
+        logo = "creative-market.png"
         link = "#"
 
   # Contact section
