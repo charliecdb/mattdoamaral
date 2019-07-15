@@ -195,7 +195,7 @@ She worked at Pied Piper for years until they went belly up."""
     [[params.team.members]]
       img = "2.jpg"
       name = "Alejandro Leyton"
-      position = "Productor Musical"
+      position = "Productor - Empresario"
       livesIn = "La Paz, Bolivia"
       social = [
         ["fa-linkedin", "https://www.linkedin.com/in/alejandro-leyton-204071179/"],
