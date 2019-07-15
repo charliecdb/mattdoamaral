@@ -198,7 +198,7 @@ She worked at Pied Piper for years until they went belly up."""
       position = "Productor - Empresario"
       livesIn = "La Paz, Bolivia"
       social = [
-        ["fa-linkedin", "https://www.linkedin.com/in/alejandro-leyton-204071179/"],
+       # ["fa-linkedin", "https://www.linkedin.com/in/alejandro-leyton-204071179/"],
         ["fa-facebook", "https://www.facebook.com/alejandro.leytonn/"],
         ["fa-instagram", "https://www.instagram.com/alejandro.leyton_/"]
       ]
