@@ -221,7 +221,7 @@ soluciones que pocas personas podrían ver, a parte de ser una excelente fotógr
 
   # Client section
     [params.clients_list]
-      enable = true
+      enable = false
       # Possibility to center items
       #center = true
       # Optional client title specifying the involvement
